@@ -1,0 +1,11 @@
+.habit-tracker {
+  display: grid;
+  place-items: center;
+  min-height: calc(100vh - 200px);
+  grid-template-columns: 2fr 100px 3fr;
+
+  @media screen and (max-width:800px) {
+    grid-template-columns: fit-content(500px);
+
+  }
+}

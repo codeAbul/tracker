@@ -1,0 +1,10 @@
+@use "variables";
+@use "sass:map";
+
+header {
+  display: grid;
+  place-content: center;
+  max-height: 100px;
+  color: map.get(variables.$colors, "header-text");
+  background-color: map.get(variables.$colors, "header-bg");
+}

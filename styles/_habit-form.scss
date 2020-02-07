@@ -1,0 +1,19 @@
+.habit-form-container{
+  justify-self: end;
+  padding: 1rem;
+
+  #new-habit{
+    margin-left: 1rem;
+    font-size:1.3rem;
+    font-weight: bolder;
+    background-color:#D5EAF2 ;
+    border:2px solid black;
+  }
+
+}
+
+input:focus,
+input:hover,
+input:active{
+  outline: 2px solid #BC1AF0;
+}

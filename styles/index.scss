@@ -1,0 +1,27 @@
+@use "header";
+@use "variables";
+@use "home";
+@use "habit-form";
+@use "habit-list";
+@use "sass:map";
+@use "habit";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: map.get(variables.$colors, "main-bg");
+  color: map.get(variables.$colors, "main-text");
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+h2 {
+  color: map.get(variables.$colors, "h2");
+}

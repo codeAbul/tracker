@@ -1,0 +1,28 @@
+$Fashion-1-hex: #100d26;
+$Fashion-2-hex: #f2e205;
+$Fashion-3-hex: #f2cb05;
+$Fashion-4-hex: #a68b03;
+$Fashion-5-hex: #0d0d0d;
+
+/* Color Theme Swatches in RGBA */
+$Fashion-1-rgba: rgba(16, 12, 38, 1);
+$Fashion-2-rgba: rgba(242, 226, 4, 1);
+$Fashion-3-rgba: rgba(242, 202, 4, 1);
+$Fashion-4-rgba: rgba(165, 138, 3, 1);
+$Fashion-5-rgba: rgba(12, 12, 12, 1);
+
+/* Color Theme Swatches in HSLA */
+$Fashion-1-hsla: hsla(247, 50, 9, 1);
+$Fashion-2-hsla: hsla(56, 96, 48, 1);
+$Fashion-3-hsla: hsla(50, 96, 48, 1);
+$Fashion-4-hsla: hsla(50, 96, 33, 1);
+$Fashion-5-hsla: hsla(0, 0, 5, 1);
+
+$colors: (
+  "header-bg": $Fashion-1-hex,
+  "header-text": $Fashion-2-hex,
+  "main-bg":#CABFD9,
+  "main-text": #0f1026,
+  "h2": #1E4959
+);
+/* Color Theme Swatches in Hex */
